@@ -1,0 +1,42 @@
+PATH_DATA: Data2R           # folder containing original data
+PATH_OUTPUT: Output         # folder containing generated data
+
+SAVING_DATA: CSV            # or PICKLE
+
+SMOOTHING_TECHNIQUE:
+  method: boxcar    # or method: gaussian, winsize:30, sigma:0.1
+  winsize: 30
+
+SEGMENTATION_TECHNIQUE:
+  method: slidingWindow
+  winSizeSecond: 4
+  stepSizeSecond: 2
+
+FEATURE_TYPE: VerySimple
+
+CLASSIFIER: knnVoting
+
+DATASET: gesture
+
+SUBJECT_LIST:
+- 1
+- 2
+- 3
+
+
+PARTITION:
+  SUBJECT_DEPENDENCY: "personalized"   # personalized or generalized
+
+SENSORS_AVAILABLE:
+- AccelX
+
+
+
+CLASS_LABELS:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+
