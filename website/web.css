@@ -1,0 +1,91 @@
+
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("sky2.jpg");
+    min-height: 95%;
+    margin-top: 30px;
+/*    border: solid 50px black;*/
+/*    background: #158 url(https://yanxitavern.weebly.com/uploads/2/1/8/9/21892438/2787648_orig.jpg) center no-repeat;*/
+}
+.menu {
+    display: none;
+}
+
+.e4{
+	width: 180px;
+	height: 180px;
+	image-rendering: inherit；
+}
+
+.pic_structure{
+	width: 700px;
+	height: 400px;
+}
+.collection_data{
+    width:664.5px;
+    height:298.5px;
+}
+.e4data{
+     width:706.5px;
+    height:358.5px;
+}
+.yuqin{
+     border-radius:50%;
+    width:150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.w3-content.white{
+
+background-color: white;
+
+}
+
+.w3-sand1,.w3-hover-sand1:hover{color:#000!important;/* background-color:#fdf5e6!important; */}
+
+.video{
+    text-align: center;
+    height: 380px;
+    margin-top:  15px;
+    margin-bottom: 15px;
+}
+
+
+.photo1{
+    display: inline-block;
+
+    position: relative;
+    width: 30%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+    border: solid #888 1px;
+
+
+}
+
+.service-heading{
+    text-align: center;
+}
+
+
+.ack{
+    font-weight: bolder;
+}
+
+.e4sensor{
+    text-align: center;
+}
+
+/*.teammate{
+    border: solid grey 2px;
+}*/
